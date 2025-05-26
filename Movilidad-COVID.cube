@@ -1,0 +1,289 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b86cb3f2-c134-4675-a224-c3bcb75336e2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Movilidad-COVID</ID>
+  <Name>Movilidad-COVID</Name>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="11" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-19215" scrolltop="-14499" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="50" x="26247" y="17145" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="MovilidadC19" left="-368" top="-3035" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="5318" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000c6140000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_MovilidadC19" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vw_DimUbicacion" left="-8308" top="744" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="4516" height="1940" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000a411000094070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_vw_DimUbicacion" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-4092" top="736" logicalid="8" controlid="5" masterid="0" hint1="0" hint2="0" width="4024" height="828" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[MovilidadC19-vw_DimUbicacion]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="15" destattachpoint="32" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-3792" y="1164" />
+              <point x="-2080" y="1164" />
+              <point x="-2080" y="1036" />
+              <point x="-368" y="1036" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="timeD" left="9472" top="424" logicalid="9" controlid="6" masterid="0" hint1="0" hint2="0" width="3546" height="3916" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000da0d00004c0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_timeD" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4650" top="87" logicalid="10" controlid="7" masterid="0" hint1="0" hint2="0" width="5122" height="945" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[timeD-MovilidadC19]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="6" sourceattachpoint="31" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4950" y="486" />
+              <point x="7211" y="486" />
+              <point x="7211" y="732" />
+              <point x="9472" y="732" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-19215</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-14499</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-8308</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-3035</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>50</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="419cad64-1f4b-4090-a91a-f9906ebed57c">
+      <ID>Movilidad C19</ID>
+      <Name>Movilidad C19</Name>
+      <DimensionID>Movilidad C19</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="4f867e9c-ec8d-41ba-90c2-86b9dea4de9b">
+          <AttributeID>Iso 3166 2 Code</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="6c1b7b80-e35f-4251-9587-3912b5da11c7">
+      <ID>Time</ID>
+      <Name>Time</Name>
+      <DimensionID>Time</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b1203019-42e5-40c0-a967-4abbbf46df0b">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="3f1d8fa1-725b-427f-bfed-59e50ede14c4">
+      <ID>Vw Dim Ubicacion</ID>
+      <Name>Vw Dim Ubicacion</Name>
+      <DimensionID>Vw Dim Ubicacion</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="02dd0ff0-6619-43c6-9930-fb1c82548e5c">
+          <AttributeID>Iso 3166 2 Code</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="4ae66927-60a7-449c-9e3f-663c006da948">
+      <ID>Movilidad C19</ID>
+      <Name>Movilidad C19</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="ab426cb5-799f-469e-8f2b-3622a313e45d">
+          <ID>Retail And Recreation Change</ID>
+          <Name>Retail And Recreation Change</Name>
+          <Source dwd:design-time-name="9c636034-8eea-4376-b677-0b84c0003668">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="72e9b29c-6892-496a-b9c6-dcc8b35f59df">
+              <TableID>dbo_MovilidadC19</TableID>
+              <ColumnID>Retail_and_recreation_change</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="cf5cb5db-7283-4222-9b0f-3f19e4cdadda">
+          <ID>Grocery And Pharmacy Change</ID>
+          <Name>Grocery And Pharmacy Change</Name>
+          <Source dwd:design-time-name="327472df-70bc-4cf5-9270-baac1581c6d5">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8ed78107-41bd-484e-9243-53c2fdbd76a4">
+              <TableID>dbo_MovilidadC19</TableID>
+              <ColumnID>Grocery_and_pharmacy_change</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="47808f28-f37e-48f7-9e0b-2418bd2dd91d">
+          <ID>Parks Change</ID>
+          <Name>Parks Change</Name>
+          <Source dwd:design-time-name="401bfb37-5db1-4fb1-9b04-e7f20d3a76b5">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bb4ea016-45ac-4720-9c4b-ce83eecf3754">
+              <TableID>dbo_MovilidadC19</TableID>
+              <ColumnID>Parks_change</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7a9fdbfb-79bb-44cc-b834-e801604a30bc">
+          <ID>Transit Stations Change</ID>
+          <Name>Transit Stations Change</Name>
+          <Source dwd:design-time-name="de8996dc-f6e5-4065-91fd-e294b3841ab7">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="25c8d74b-eaa7-460b-86eb-d070fb5a77ad">
+              <TableID>dbo_MovilidadC19</TableID>
+              <ColumnID>Transit_stations_change</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b642ad1a-1444-4437-b924-ca19dc50e341">
+          <ID>Workplaces Change</ID>
+          <Name>Workplaces Change</Name>
+          <Source dwd:design-time-name="1206bd8e-bf19-410a-856d-508df6429362">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="07ca02e2-0e07-4bcf-9c5d-538c439d3df2">
+              <TableID>dbo_MovilidadC19</TableID>
+              <ColumnID>Workplaces_change</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3d450f26-2e14-4e59-b631-9ae95e81aac2">
+          <ID>Residential Change</ID>
+          <Name>Residential Change</Name>
+          <Source dwd:design-time-name="c47b815e-deb3-4208-97da-5a7b044e9e32">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="de8136f0-cc59-4f4c-a2a5-bc606c77747b">
+              <TableID>dbo_MovilidadC19</TableID>
+              <ColumnID>Residential_change</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="031a3fe0-e5ad-4036-be93-33d73f66de39">
+          <ID>Movilidad C19 Count</ID>
+          <Name>Movilidad C19 Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="0cf0b2f7-d084-4d95-940d-43d4855fcb41">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="b7364ccf-6bca-446c-b9ea-9dd601779c39">
+              <TableID>dbo_MovilidadC19</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="26a53ab2-a04b-4dae-ba6e-3bc220845b95">
+          <CubeDimensionID>Movilidad C19</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="cf7d8bd5-2cb0-4d37-8069-6f4821de44b8">
+              <AttributeID>Iso 3166 2 Code</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5f652692-2573-4881-b243-0ba01fbd7a86">
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f4e45c43-2992-4be3-8ea8-7eec82c21cc4">
+                    <TableID>dbo_MovilidadC19</TableID>
+                    <ColumnID>Iso_3166_2_code</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="b09fda02-dd3d-4fab-8e8c-c98a51ac48e2">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fbb33dc7-b484-472a-bda9-7b49e5440f5c">
+                    <TableID>dbo_MovilidadC19</TableID>
+                    <ColumnID>Fecha</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="97d7b1ff-26c1-48bf-ba6e-919987583bb9">
+    <DataSourceViewID>Movilidad-COVID</DataSourceViewID>
+  </Source>
+</Cube>

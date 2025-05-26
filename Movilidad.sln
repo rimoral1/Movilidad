@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35731.53
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Movilidad", "Movilidad.dwproj", "{FAD4FC7E-FE5A-492C-B595-7B76A1CBBA43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAD4FC7E-FE5A-492C-B595-7B76A1CBBA43}.Development|Default.ActiveCfg = Development
+		{FAD4FC7E-FE5A-492C-B595-7B76A1CBBA43}.Development|Default.Build.0 = Development
+		{FAD4FC7E-FE5A-492C-B595-7B76A1CBBA43}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5AA89F0-B1D2-4C8E-8B32-ABA3B705E14D}
+	EndGlobalSection
+EndGlobal
